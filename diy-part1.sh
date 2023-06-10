@@ -17,4 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 cd package
-git clone https://github.com/cokebar/openwrt-vlmcsd.git && git clone https://github.com/cokebar/luci-app-vlmcsd.git && git clone https://github.com/gundao/rt8125.git && git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git && git clone https://github.com/jerrykuku/luci-theme-argon.git && git clone https://github.com/jerrykuku/luci-app-argon-config.git
+git clone https://github.com/cokebar/openwrt-vlmcsd.git && git clone https://github.com/cokebar/luci-app-vlmcsd.git && git clone https://github.com/gundao/OpenWrt-NIC-Drivers.git && git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git && git clone https://github.com/jerrykuku/luci-theme-argon.git && git clone https://github.com/jerrykuku/luci-app-argon-config.git
